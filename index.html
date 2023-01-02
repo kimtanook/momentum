@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/css/style.css" />
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<title></title>
+</head>
+
+<body>
+		<div class="clock">
+			<h2 id="clock"></h2>
+		</div>
+		<form id="login-form" class="hidden" data-name="a1">
+			<input class="inputname" required maxlength="15" type="text" placeholder="이름 입력 후 엔터를 누르세요." />
+		</form>
+		<div class="greet">
+			<h1 id="greeting" class="hidden" class="animate__flash"></h1>
+		</div>
+		<form id="todo-form" class="hidden">
+			<input class="inputlist" type="text" placeholder="할 일을 적고 엔터를 누르세요." required>
+		</form>
+		<ul id="todo-list"></ul>
+		<div id="quote">
+			<span></span>
+			<span></span>
+		</div>
+		<div id="weather">
+			<span></span><br>
+			<span></span>
+		</div>
+
+	<script src="js/greeting.js"></script>
+	<script src="js/clock.js"></script>
+	<script src="js/quotes.js"></script>
+	<script src="js/background.js"></script>
+	<script src="js/todo.js"></script>
+	<script src="js/weather.js"></script>
+</body>
+
+</html>
